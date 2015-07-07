@@ -1,0 +1,2 @@
+module IsmailHelper
+end
