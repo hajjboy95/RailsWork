@@ -1,0 +1,18 @@
+
+<nav><!-- top nav -->
+  <div class="menu">
+    <ul>
+      <li><%= nav_link_to "Home" ,"home", home_path , "current_page" %></li>
+      <li><a href="#">About</a>
+        <ul>
+          <li><a href="#">The Ranch</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="">Vision</a></li>
+        </ul>
+      </li>
+      <li><%= link_to " Calendar" , calendar_path %></li>
+      <li> <%= link_to "Articles" , articles_path %></li>
+      <li><%= link_to "Contact us",contact_us_path%> </li>
+    </ul>
+  </div>
+</nav><!-- end of top nav -->
